@@ -1,0 +1,152 @@
+/**
+ * Basis skeleton customization.
+**/
+body {
+    color: white;
+    background: #565695;
+}
+.container {
+	max-width: 800px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 7.0rem;
+	color: white;
+}
+
+h1 a {
+    color: white;
+	text-decoration: none;
+}
+
+h1 a:hover {
+    color: white;
+	text-decoration: none;
+}
+
+h1 b {
+	color: hotpink;
+	text-decoration: none;
+}
+
+section.welcome {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+section.welcome-big {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #eee;
+	color: white;
+	min-height: 200px;
+}
+
+section.bg-image-0 {
+	background: url('/static/images/cables-full-0.jpg') no-repeat center
+		center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+section.footer.bg-image-0  a {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 4px;
+}
+
+section.solid {
+	background-color: #565695;
+	background-image: linear-gradient(140deg, #565695, #565695, #159957);
+}
+
+section.solid h1 a {
+	color: #FFF;
+}
+
+.task-done {
+	color: #7B6A85;
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.screenshot {
+	width: 100%;
+}
+
+.row-screenshot {
+	padding-bottom: 20px;
+}
+
+.row-footer {
+	padding-top: 20px;
+}
+
+/**
+ * Chat component styles.
+**/
+.messages-box {
+	width: 100%;
+	height: 240px;
+	background-color: #fff;
+	border: 1px solid #D1D1D1;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	overflow: scroll;
+}
+
+.messages-box div {
+	margin-left: 5px;
+}
+
+.key-field {
+	width: 100%;
+}
+
+.message-box {
+	width: 100%;
+}
+
+.messages-box div.sent {
+	color: #999988;
+}
+
+.send-btn {
+	width: 100%;
+	padding-top: 1px;
+}
+
+/**
+ * Embedded chat iframe styles.
+**/
+.embedded-body {
+	margin-top: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.chat-embedded {
+	width: 100%;
+	height: 390px;
+	border: 0px solid white;
+}
+
+@media ( max-width : 600px) {
+	.chat-embedded {
+		width: 100%;
+		height: 450px;
+		border: 0px solid white;
+	}
+}
+
+table {
+    width: 100%;
+}
+
+div.row {
+    padding-top: 10px;
+}

@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>
+            <a href="https://kemo.rocks">kemo<b>.</b>rocks
+            </a>
+        </h1>
+        <h3>Requests Report</h3>
+    </div>
+    <div class="row">
+        <canvas id="accessLogChart" width="400" height="300px"></canvas>
+    </div>
+    <div class="row">
+        <h2>Last 100 requests</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Method</th>
+                <th>Path</th>
+                <th>User Agent</th>
+            </tr>
+            </thead>
+            <tbody id="last_requests_tbody">
+            </tbody>
+        </table>
+    </div>
+    <div class="row">
+        <h2>User agents</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>User Agent</th>
+            </tr>
+            </thead>
+            <tbody id="user_agents">
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="./js/Chart.bundle.min.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/analytics.utils.js"></script>
+<script src="./js/analytics.ui.js"></script>
+</html>

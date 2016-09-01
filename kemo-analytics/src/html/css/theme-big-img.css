@@ -1,0 +1,107 @@
+/**
+* Theme Big Images Colors
+* Link http://paletton.com/#uid=13+0u0kllllaFw0g0qFqFg0w0aF
+**/
+body {
+	background-color: #FFFFFF;
+	color: white;
+	letter-spacing: 0.07em;
+}
+
+section.welcome-big p {
+	color: white;
+	font-size: 16px;
+}
+
+h1 a {
+	color: white;
+}
+
+h1 a:hover {
+	color: white;
+}
+
+a {
+	color: hotpink;
+}
+
+a:hover {
+	color: hotpink;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary,
+	input[type="reset"].button-primary, input[type="button"].button-primary
+	{
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary,
+	input[type="reset"].button-primary, input[type="button"].button-primary
+	{
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary,
+	input[type="button"].button-primary {
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+button.button-primary:hover, input[type="submit"].button-primary:hover,
+	input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover
+	{
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+button.button-primary:focus, input[type="submit"].button-primary:focus,
+	input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus
+	{
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"],
+	input[type="tel"], input[type="url"], input[type="password"], textarea
+	{
+	background-color: #FFFFFF;
+	border-color: #eeeeee;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary,
+	input[type="reset"].button-primary, input[type="button"].button-primary
+	{
+	color: #FFFFFF;
+	background-color: #565695;
+	border-color: #FFF;
+}
+
+.messages-box {
+	background-color: #FFFFFF;
+	border: 1px solid #eeeeee;
+}
+
+.messages-box div {
+	color: #333;
+}
+
+.messages-box div.sent {
+	color: #82828B;
+}
+
+input {
+	color: #333;
+}
+
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus,
+	input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus,
+	input[type="password"]:focus, textarea:focus, select:focus {
+	border: 1px solid #565695;
+}
