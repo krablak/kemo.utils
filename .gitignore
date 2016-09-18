@@ -2,3 +2,5 @@ kemo-analytics/.idea
 *.class
 *.pyc
 kemo-like-bot/tumblr-bot/tumblr-bot.xcodeproj/project.xcworkspace/xcuserdata
+kemo-like-bot-py/.idea
+kemo-like-bot-py/screenshots
